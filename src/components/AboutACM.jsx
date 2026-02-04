@@ -6,7 +6,7 @@ export default function AboutACM() {
     <section className="pt-12">
       <div className="mb-10 flex gap-10 items-start justify-between px-5 sm:px-10 lg:px-20 max-[900px]:flex-col max-[900px]:gap-6">
         <div className="flex-[1.2] min-w-[320px]">
-          <h2 className="text-[2rem] font-bold mb-4">ACM - An St. Joseph’s Student Chapter</h2>
+          <h2 className="text-[2rem] font-bold mb-4">ACM - A St. Joseph’s Student Chapter</h2>
           <p className="text-[1.08rem] text-[#444] mb-6 leading-[1.6]">
             Founded in 2024, the ACM chapter at St. Joseph's College of Engineering handle and manages by Department of Computer Science and Engineering is dedicated to bridging the gap between students and the ever-evolving tech industry. Our mission is to foster a community where aspiring technologists can collaborate, innovate, and gain hands-on experience with the latest industry standards. Through workshops, hackathons, and networking opportunities, we empower students to develop the skills and connections needed to succeed in the world of computing.
           </p>
