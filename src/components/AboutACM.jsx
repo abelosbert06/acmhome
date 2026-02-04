@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 export default function AboutACM() {
   return (
     <section className="pt-12">
@@ -13,7 +14,7 @@ export default function AboutACM() {
         </div>
         <div className="flex-1 min-w-[320px] flex items-center justify-center">
           <img
-            src="/images/image 9.png"
+            src="/images/image9.png"
             alt="ACM Chapter Group Photo"
             className="size-65 w-full max-w-[520px] rounded-lg shadow-[0_4px_32px_rgba(0,0,0,0.08)] max-[900px]:max-w-full"
           />

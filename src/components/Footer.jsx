@@ -1,5 +1,9 @@
 import React from 'react';
-import { FaFacebookF, FaYoutube, FaGlobe, FaBehance, FaWhatsapp } from 'react-icons/fa';
+import footer4 from '../assets/logos/footer-4.png';
+import footer5 from '../assets/logos/footer-5.png';
+import footer6 from '../assets/logos/footer-6.png';
+import footer7 from '../assets/logos/footer-7.png';
+import footer8 from '../assets/logos/footer-8.png';
 
 
 
@@ -30,11 +34,11 @@ export default function Footer() {
           </div>
 
           <div className="flex gap-4">
-            <SocialIcon icon={<FaFacebookF />} />
-            <SocialIcon icon={<FaYoutube />} />
-            <SocialIcon icon={<FaGlobe />} />
-            <SocialIcon icon={<FaBehance />} />
-            <SocialIcon icon={<FaWhatsapp />} />
+            <SocialIcon src={footer4} alt="Facebook" />
+            <SocialIcon src={footer5} alt="YouTube" />
+            <SocialIcon src={footer6} alt="Website" />
+            <SocialIcon src={footer7} alt="Figma" />
+            <SocialIcon src={footer8} alt="WhatsApp" />
           </div>
         </div>
       </div>
@@ -42,11 +46,11 @@ export default function Footer() {
   );
 }
 
-const SocialIcon = ({ icon }) => (
+const SocialIcon = ({ src, alt }) => (
   <a
     href="#"
-    className="w-10 h-10 flex items-center justify-center rounded-full bg-[#d9f3fc] text-[#00AEEF] hover:bg-[#00AEEF] hover:text-white transition-all duration-300 transform hover:scale-110"
+    className="group w-12 h-12 flex items-center justify-center rounded-full bg-[#d9f3fc] hover:bg-[#00AEEF] transition-all duration-300 transform hover:scale-110"
   >
-    {icon}
+    <img src={src} alt={alt} className="w-6 h-6 object-contain transition-all duration-300 group-hover:brightness-0 group-hover:invert" />
   </a>
 );
