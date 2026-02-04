@@ -49,7 +49,7 @@ export default function UpcomingEvents() {
 
   return (
     <section className="w-full bg-white pt-[100px] max-[768px]:pt-[60px]">
-      <div className="mx-25 mb-9 text-left">
+      <div className="mb-9 text-left px-5 sm:px-10 lg:px-20">
         <h2 className="text-[2.5rem] font-extrabold mb-2 text-[#111]">Upcoming Events</h2>
         <p className="text-[#444] text-[1.1rem] mb-0 max-w-[700px]">
           From hands-on workshops to thrilling competitions and insightful seminars, we bring<br />
@@ -58,7 +58,7 @@ export default function UpcomingEvents() {
         </p>
       </div>
 
-      <div className="bg-[#d9f3fc] rounded-[18px] py-9 flex items-center mx-25 mb-10 relative overflow-hidden">
+      <div className="bg-[#d9f3fc] rounded-[18px] py-9 flex items-center mx-5 sm:mx-10 lg:mx-20 mb-10 relative overflow-hidden">
         <button
           onClick={handlePrev}
           className="absolute left-2 top-1/2 -translate-y-1/2 z-10 w-10 h-10 flex items-center justify-center bg-white/80 rounded-full text-[#1a1a1a] shadow-sm hover:bg-white hover:scale-110 transition-all cursor-pointer border-none"

@@ -28,7 +28,7 @@ export default function Navbar() {
 
   return (
     <nav className={`sticky top-0 left-0 w-full z-[1000] py-3.5 transition-[box-shadow,background] duration-250 ease-linear text-[#1a1a1a] bg-[#ecf0f1]/95 backdrop-blur-[6px] ${scrolled ? 'shadow-[0_10px_30px_rgba(0,0,0,0.08)]' : ''}`}>
-      <div className="flex items-center justify-between gap-[22px] px-5 sm:px-10 lg:px-20 max-w-[1400px] mx-auto">
+      <div className="flex items-center justify-between gap-[22px] px-5 sm:px-10 lg:px-20">
         <a className="inline-flex items-center min-w-auto" href="#home" aria-label="ACM Home">
           <img className="block h-[72px] w-auto" src={navLogo} alt="ACM Logo" />
         </a>

@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function EventHighlights() {
     return (
-        <section className="bg-white py-20 px-6 sm:px-10 lg:px-20 overflow-hidden" id="event-highlights">
-            <div className="max-w-[1400px] mx-5">
+        <section className="bg-white py-20 px-5 sm:px-10 lg:px-20 overflow-hidden" id="event-highlights">
+            <div>
                 {/* Header Section */}
                 <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
                     <div className="max-w-[700px]">
@@ -46,7 +46,7 @@ export default function EventHighlights() {
                     <div className="flex-[2.4] relative rounded-[32px] overflow-hidden bg-[#eef2f7] group h-[300px] md:h-auto">
                         <div className="w-full h-full bg-[#d3d3d3] transition-transform duration-700 group-hover:scale-105" />
 
-                        
+
                     </div>
 
                     {/* Side Cards Column */}

@@ -4,7 +4,7 @@ import React from 'react';
 export default function AboutACM() {
   return (
     <section className="pt-12">
-      <div className="max-w-[1400px] mx-5 mb-10 flex gap-10 items-start justify-between px-5 sm:px-10 lg:px-20 max-[900px]:flex-col max-[900px]:gap-6">
+      <div className="mb-10 flex gap-10 items-start justify-between px-5 sm:px-10 lg:px-20 max-[900px]:flex-col max-[900px]:gap-6">
         <div className="flex-[1.2] min-w-[320px]">
           <h2 className="text-[2rem] font-bold mb-4">ACM - An St. Joseph’s Student Chapter</h2>
           <p className="text-[1.08rem] text-[#444] mb-6 leading-[1.6]">
@@ -12,7 +12,7 @@ export default function AboutACM() {
           </p>
           <a href="#upcoming-events" className="inline-block bg-[#00AEEF] text-white font-bold py-2.5 px-6 rounded text-[1.1rem] transition-colors duration-200 hover:bg-[#008fc5]">Our Events</a>
         </div>
-        <div className="flex-1 min-w-[320px] flex items-center justify-center">
+        <div className="flex-1 min-w-[320px] flex items-center justify-center 2xl:justify-end">
           <img
             src="/images/image9.png"
             alt="ACM Chapter Group Photo"

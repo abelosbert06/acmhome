@@ -115,7 +115,7 @@ export default function HexagonGrid() {
 
   return (
     <section className="team-section py-20 overflow-hidden">
-      <div className="header-content mx-21 mb-16 max-w-[800px] px-4">
+      <div className="header-content mb-16 px-5 sm:px-10 lg:px-20">
         <h2 className="text-[2rem] font-extrabold mb-4 text-black leading-tight tracking-tight md:text-[2rem]">Driving Change, Leading the Charge</h2>
         <p className="subtitle text-[#555] text-[1.1rem] leading-[1.6]">
           Our leadership team is dedicated to creating opportunities, fostering growth, and inspiring the next generation of tech leaders. These are the changemakers who guide ACM St. Joseph's Chapter toward success and innovation.
